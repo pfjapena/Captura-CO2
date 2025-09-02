@@ -10,7 +10,7 @@
 
 <h1 class="mb-4 text-center">Prospectiva del Riesgo</h1>
 
-<h3>Perfiles Captura CO2</h3>
+<h3>Perfiles de Riesgo - Indice Captura CO2</h3>
 
 <div class="table-responsive" style="max-height:600px; overflow-y:auto; overflow-x:auto;">
   <table border="1" class="dataframe table table-striped table-sm text-center">
@@ -21,7 +21,6 @@
       <th>PNE (USD)</th>
       <th>L75%</th>
       <th>OpVar (USD)</th>
-      <th>Asimetría</th>
       <th>NE</th>
       <th>NNE</th>
       <th>NS</th>
@@ -29,83 +28,84 @@
       <th>VC (USD)</th>
       <th>CG (USD)</th>
       <th>Ing.</th>
+      <th>TCO2(Ton.)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>Baseline</th>
-      <td>21866.44</td>
-      <td>26285.92</td>
-      <td>25364.80</td>
-      <td>40111.67</td>
-      <td>0.15</td>
-      <td>38949.0</td>
-      <td>52860.0</td>
-      <td>927.0</td>
+      <td>$10,752</td>
+      <td>$13,333</td>
+      <td>$12,191</td>
+      <td>$21,648</td>
+      <td>27611.0</td>
+      <td>60896.0</td>
+      <td>226.0</td>
       <td>0.0</td>
+      <td>$0</td>
+      <td>$4,152</td>
+      <td>$47,673</td>
       <td>0.00</td>
-      <td>4195.41</td>
-      <td>94191.31</td>
     </tr>
     <tr>
       <th>Level 1.5</th>
-      <td>14561.31</td>
-      <td>16739.21</td>
-      <td>16059.39</td>
-      <td>26677.92</td>
-      <td>0.63</td>
-      <td>90883.0</td>
-      <td>1854.0</td>
-      <td>0.0</td>
-      <td>51006.0</td>
-      <td>185100.47</td>
-      <td>6075.90</td>
-      <td>85765.12</td>
+      <td>$7,168</td>
+      <td>$8,888</td>
+      <td>$8,127</td>
+      <td>$14,432</td>
+      <td>79990.0</td>
+      <td>8517.0</td>
+      <td>226.0</td>
+      <td>52379.0</td>
+      <td>$35,719</td>
+      <td>$6,010</td>
+      <td>$48,370</td>
+      <td>142.87</td>
     </tr>
     <tr>
       <th>Level 2</th>
-      <td>11867.60</td>
-      <td>13737.34</td>
-      <td>12568.85</td>
-      <td>20647.31</td>
-      <td>1.37</td>
-      <td>78827.0</td>
-      <td>13910.0</td>
-      <td>0.0</td>
-      <td>38950.0</td>
-      <td>141349.32</td>
-      <td>7956.40</td>
-      <td>99034.18</td>
+      <td>$5,376</td>
+      <td>$6,666</td>
+      <td>$6,095</td>
+      <td>$10,824</td>
+      <td>86984.0</td>
+      <td>1523.0</td>
+      <td>226.0</td>
+      <td>59373.0</td>
+      <td>$40,488</td>
+      <td>$7,867</td>
+      <td>$48,920</td>
+      <td>161.95</td>
     </tr>
     <tr>
       <th>Level 3</th>
-      <td>8630.48</td>
-      <td>10897.39</td>
-      <td>9052.22</td>
-      <td>14236.65</td>
-      <td>1.33</td>
-      <td>82536.0</td>
-      <td>10201.0</td>
+      <td>$3,584</td>
+      <td>$4,444</td>
+      <td>$4,064</td>
+      <td>$7,216</td>
+      <td>88733.0</td>
       <td>0.0</td>
-      <td>42659.0</td>
-      <td>154809.26</td>
-      <td>11717.39</td>
-      <td>101946.17</td>
+      <td>226.0</td>
+      <td>61122.0</td>
+      <td>$41,681</td>
+      <td>$11,582</td>
+      <td>$47,468</td>
+      <td>166.72</td>
     </tr>
     <tr>
       <th>Level 4</th>
-      <td>6466.65</td>
-      <td>8194.17</td>
-      <td>6374.63</td>
-      <td>10398.42</td>
-      <td>1.75</td>
-      <td>86246.0</td>
-      <td>6491.0</td>
+      <td>$2,688</td>
+      <td>$3,333</td>
+      <td>$3,048</td>
+      <td>$5,412</td>
+      <td>88733.0</td>
       <td>0.0</td>
-      <td>46369.0</td>
-      <td>168272.83</td>
-      <td>15478.38</td>
-      <td>100740.59</td>
+      <td>226.0</td>
+      <td>61122.0</td>
+      <td>$41,681</td>
+      <td>$15,298</td>
+      <td>$47,875</td>
+      <td>166.72</td>
     </tr>
   </tbody>
 </table>
@@ -114,9 +114,9 @@
 <h3 class="text-center">Distribución Agregada de Pérdidas</h3>
 <div class="row">
   <div class="col-12">
-    <img src="RiskProfileLDA.png" 
+    <img src="RiskProfileLDA.png"
      alt="Gráfico"
-     style="width:60%; height:auto;" 
+     style="width:60%; height:auto;"
      class="d-block mx-auto shadow rounded">
   </div>
 </div>
